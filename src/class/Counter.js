@@ -50,9 +50,9 @@ class Counter extends React.Component{
         console.log('Counter render called')
         return(
             <div style={{border:'3px solid pink'}}>
-                <h1>Counter Component</h1>
-                <h1>Counter:</h1>
-                <p>count state in Counter: {this.props.someNumber}</p>
+                <h1>Class Counter Component</h1>
+                <h1>Class Counter:</h1>
+                <p>count state in Class Counter: {this.props.someNumber}</p>
                 <p>someNumber prop: {this.state.count}</p>
                 <button onClick={this.increment}>add</button>
             </div>

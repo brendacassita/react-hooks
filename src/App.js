@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Counter from './class/Counter';
+import CounterHooks from './functional/CounterHooks';
 
 function App() {
   const [showThings, setShowThings] = useState(true)
@@ -41,7 +42,7 @@ function App() {
       {/* if this is true calling function and render my things, if not i wont */}
       {/* setting state showThings to render components (add/remove to DOM) */}
       {/* <button onClick={()=>setShowThings(!showThings)}>toggle</button> */}
-      
+      <CounterHooks />
     </div>
   );
 }
